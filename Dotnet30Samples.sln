@@ -1,11 +1,16 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26124.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29326.143
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{65108B46-8364-4D23-B314-6FC366AB9E5D}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Web Applications", "1 - Web Applications", "{65108B46-8364-4D23-B314-6FC366AB9E5D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp", "src\WebApp\WebApp.csproj", "{70237520-3FCE-4C54-8516-6E6E51BE3C43}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApp", "src\WebApp\WebApp.csproj", "{70237520-3FCE-4C54-8516-6E6E51BE3C43}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Solution Items", "0 - Solution Items", "{05EC169D-C750-4A47-8032-32AB13E014A6}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +20,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{70237520-3FCE-4C54-8516-6E6E51BE3C43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -33,7 +35,13 @@ Global
 		{70237520-3FCE-4C54-8516-6E6E51BE3C43}.Release|x86.ActiveCfg = Release|Any CPU
 		{70237520-3FCE-4C54-8516-6E6E51BE3C43}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{70237520-3FCE-4C54-8516-6E6E51BE3C43} = {65108B46-8364-4D23-B314-6FC366AB9E5D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9AE28E13-1A60-436D-A95E-BA9EE18D6278}
 	EndGlobalSection
 EndGlobal
